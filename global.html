@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Module: promptSuggestion | Generator</title>
+    <title>Global | Generator</title>
 
     <script src="scripts/prettify/prettify.js"></script>
     <script src="scripts/prettify/lang-css.js"></script>
@@ -273,22 +273,319 @@
     <div class="main" id="main">
       <section>
         <header>
-          <h2>promptSuggestion</h2>
+          <h2>Global</h2>
         </header>
 
         <article>
-          <div class="container-overview">
-            <div class="description">
-              <p>
-                Utilities to allow remembering answers to Inquirer.js prompts
-              </p>
-            </div>
+          <h3 class="subsection-title">Type Definitions</h3>
 
-            <dt></dt>
+          <dl>
+            <dt>
+              <h4 class="name" id="Priority">
+                Priority
+
+                <div class="container-source members">
+                  <code><a href="index.js.html">index.js</a></code
+                  >,
+                  <code><a href="index.js.html#line46">line 46</a></code>
+                </div>
+              </h4>
+            </dt>
             <dd>
+              <div class="description">
+                <p>Priority object.</p>
+              </div>
+
+              <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Object</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+              <h5 class="subsection-title">Properties:</h5>
+
+              <table class="props">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+
+                    <th>Type</th>
+
+                    <th>Attributes</th>
+
+                    <th class="last">Description</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="name"><code>priorityName</code></td>
+
+                    <td class="type">
+                      <span class="param-type">string</span>
+                    </td>
+
+                    <td class="attributes"></td>
+
+                    <td class="description last">
+                      <p>Name of the priority.</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="name"><code>before</code></td>
+
+                    <td class="type">
+                      <span class="param-type">string</span>
+                    </td>
+
+                    <td class="attributes">&lt;optional><br /></td>
+
+                    <td class="description last">
+                      <p>
+                        The queue which this priority should be added before.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
               <dl class="details"></dl>
             </dd>
-          </div>
+
+            <dt>
+              <h4 class="name" id="QueueOptions">
+                QueueOptions
+
+                <div class="container-source members">
+                  <code><a href="index.js.html">index.js</a></code
+                  >,
+                  <code><a href="index.js.html#line31">line 31</a></code>
+                </div>
+              </h4>
+            </dt>
+            <dd>
+              <div class="description">
+                <p>Queue options.</p>
+              </div>
+
+              <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Object</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+              <h5 class="subsection-title">Properties:</h5>
+
+              <table class="props">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+
+                    <th>Type</th>
+
+                    <th>Attributes</th>
+
+                    <th class="last">Description</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="name"><code>queueName</code></td>
+
+                    <td class="type">
+                      <span class="param-type">string</span>
+                    </td>
+
+                    <td class="attributes">&lt;optional><br /></td>
+
+                    <td class="description last"><p>Name of the queue.</p></td>
+                  </tr>
+
+                  <tr>
+                    <td class="name"><code>once</code></td>
+
+                    <td class="type">
+                      <span class="param-type">boolean</span>
+                    </td>
+
+                    <td class="attributes">&lt;optional><br /></td>
+
+                    <td class="description last">
+                      <p>Execute only once by namespace and taskName.</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="name"><code>run</code></td>
+
+                    <td class="type">
+                      <span class="param-type">boolean</span>
+                    </td>
+
+                    <td class="attributes">&lt;optional><br /></td>
+
+                    <td class="description last">
+                      <p>Run the queue if not running yet.</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <dl class="details"></dl>
+            </dd>
+
+            <dt>
+              <h4 class="name" id="Task">
+                Task
+
+                <div class="container-source members">
+                  <code><a href="index.js.html">index.js</a></code
+                  >,
+                  <code><a href="index.js.html#line54">line 54</a></code>
+                </div>
+              </h4>
+            </dt>
+            <dd>
+              <div class="description">
+                <p>Complete Task object.</p>
+              </div>
+
+              <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Object</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+              <h5 class="subsection-title">Properties:</h5>
+
+              <table class="props">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+
+                    <th>Type</th>
+
+                    <th class="last">Description</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="name"><code>method</code></td>
+
+                    <td class="type">
+                      <span class="param-type">function</span>
+                    </td>
+
+                    <td class="description last">
+                      <p>Function to be queued.</p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="name"><code>taskName</code></td>
+
+                    <td class="type">
+                      <span class="param-type">string</span>
+                    </td>
+
+                    <td class="description last"><p>Name of the task.</p></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <dl class="details"></dl>
+            </dd>
+
+            <dt>
+              <h4 class="name" id="TaskOptions">
+                TaskOptions
+
+                <div class="container-source members">
+                  <code><a href="index.js.html">index.js</a></code
+                  >,
+                  <code><a href="index.js.html#line39">line 39</a></code>
+                </div>
+              </h4>
+            </dt>
+            <dd>
+              <div class="description">
+                <p>Task options.</p>
+              </div>
+
+              <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Object</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+              <h5 class="subsection-title">Properties:</h5>
+
+              <table class="props">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+
+                    <th>Type</th>
+
+                    <th>Attributes</th>
+
+                    <th class="last">Description</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="name"><code>reject</code></td>
+
+                    <td class="type">
+                      <span class="param-type">function</span>
+                    </td>
+
+                    <td class="attributes">&lt;optional><br /></td>
+
+                    <td class="description last"><p>Reject callback.</p></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <dl class="details"></dl>
+            </dd>
+          </dl>
         </article>
       </section>
     </div>
@@ -309,7 +606,7 @@
     <script src="scripts/linenumber.js"></script>
 
     <script>
-      var id = "module:promptSuggestion_sub".replace(/"/g, "_");
+      var id = "_sub".replace(/"/g, "_");
       var selectedApi = document.getElementById(id); // do not use jquery selector
       var $selectedApi = $(selectedApi);
 
