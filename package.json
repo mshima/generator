@@ -1,6 +1,6 @@
 {
-  "name": "yeoman-generator",
-  "version": "4.10.1",
+  "name": "@mshima/generator",
+  "version": "5.0.0-beta.0",
   "description": "Rails-inspired generator system that provides scaffolding for your apps",
   "homepage": "http://yeoman.io",
   "author": "Yeoman",
@@ -44,7 +44,7 @@
     "yeoman-test": "^2.3.0"
   },
   "license": "BSD-2-Clause",
-  "repository": "yeoman/generator",
+  "repository": "mshima/generator",
   "engines": {
     "node": ">=10"
   },
