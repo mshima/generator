@@ -123,31 +123,17 @@ describe('Generators module', () => {
     });
   });
 
-  it('running standalone', function(done) {
+  it('running standalone', function() {
     const Generator = class extends Base {};
     let value = 1;
     Generator.prototype.exec = function() {
       value = 2;
     };
 
-    const generator = new Generator();
-    generator.run().then(() => {
+    const env = require('yeoman-environment').createEnv();
+    const generator = new Generator([], { env });
+    return env.runGenerator(generator).then(() => {
       assert.equal(2, value);
-      done();
-    });
-  });
-
-  it('running with an empty env', function(done) {
-    const Generator = class extends Base {};
-    let value = 1;
-    Generator.prototype.exec = function() {
-      value = 2;
-    };
-
-    const generator = new Generator({ env: {} });
-    generator.run().then(() => {
-      assert.equal(2, value);
-      done();
     });
   });
 });

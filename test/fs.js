@@ -20,7 +20,8 @@ describe('generators.Base (actions/fs)', function() {
 
   before(function() {
     this.timeout(10000);
-    this.gen = new Base();
+    const env = require('yeoman-environment').createEnv();
+    this.gen = new Base({ env });
   });
 
   beforeEach(function() {
