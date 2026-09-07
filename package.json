@@ -77,7 +77,7 @@
     "@types/sinon": "^21.0.1",
     "@types/text-table": "^0.2.5",
     "@typescript-eslint/parser": "^8.59.1",
-    "@vitest/coverage-v8": "^4.1.5",
+    "@vitest/coverage-v8": "^5.0.0",
     "@yeoman/adapter": "^4.0.2",
     "@yeoman/eslint": "1.1.0",
     "@yeoman/transform": "^2.1.1",
@@ -90,7 +90,7 @@
     "prettier-plugin-packagejson": "3.0.2",
     "sinon": "^21.1.2",
     "typescript": "6.0.3",
-    "vitest": "^4.1.5",
+    "vitest": "^5.0.0",
     "yeoman-environment": "^6.0.1",
     "yeoman-test": "^11.3.1"
   },
